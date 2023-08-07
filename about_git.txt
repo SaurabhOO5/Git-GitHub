@@ -1,0 +1,14 @@
+what is git?
+Ans-->git is a version control system that tracks changes in any computer files,usally used for maintaining a collaborative environment
+for the programmers or others to work on a single project at the same time.
+
+git init->powers your folder to be managed by git, it initialises a new empty repository.It also creates a .git folder 
+which contain all logics to manage all versions of your project.
+
+git status-> this command shows you in which area your files kept.
+
+git add filename-> this command move a file from untracked area to staging area(A area in which git knows what changes
+has to be made in the previous file).
+
+git rm --cached filename-> this command is used to unstage the file(means move from stage to untracked area).
+

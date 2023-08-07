@@ -25,3 +25,6 @@ git commit-> transfer staging changes to repository area.
 git log-> list down all the commits of the repository.
 
 git restore filename-> this command used to remove all files changes from the staging area to be committed.
+
+git restore --staged filename-> it revert back to the working area and then apply restore command(restore command
+only work on working area).

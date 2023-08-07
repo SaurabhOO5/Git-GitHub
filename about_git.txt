@@ -28,3 +28,6 @@ git restore filename-> this command used to remove all files changes from the st
 
 git restore --staged filename-> it revert back to the working area and then apply restore command(restore command
 only work on working area).
+
+*wq-> type this for exiting vm window which appear after commit command.
+

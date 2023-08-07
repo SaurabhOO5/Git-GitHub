@@ -23,3 +23,5 @@ make a version out of it.
 git commit-> transfer staging changes to repository area.
 
 git log-> list down all the commits of the repository.
+
+git restore filename-> this command used to remove all files changes from the staging area to be committed.

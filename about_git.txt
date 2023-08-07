@@ -10,5 +10,16 @@ git status-> this command shows you in which area your files kept.
 git add filename-> this command move a file from untracked area to staging area(A area in which git knows what changes
 has to be made in the previous file).
 
+git add -A-> this command is used to transfer all files to staging area.
+
 git rm --cached filename-> this command is used to unstage the file(means move from stage to untracked area).
 
+*repository area-> this area contain all your previous registered versions.All the files in this area,git manages
+them and know their version history.
+
+*commit-> commit is a particular version of the project. It captures the snapshot of project's staged changes and 
+make a version out of it.
+
+git commit-> transfer staging changes to repository area.
+
+git log-> list down all the commits of the repository.

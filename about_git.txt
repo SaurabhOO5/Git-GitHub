@@ -33,7 +33,8 @@ git restore filename-> this command used to remove all files changes from the st
 git restore --staged filename-> it revert back to the working area and then apply restore command(restore command
 only work on working area).
 
-*git commit -m ->if you do not want to open text editor like window afer commiting then use this command for direct commit.
+*git commit -m "<your commit message>" ->if you do not want to open text editor like window afer commiting then use this command for direct commit.
+
 
 
 

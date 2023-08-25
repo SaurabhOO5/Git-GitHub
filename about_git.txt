@@ -1,3 +1,5 @@
+* -> important.
+
 what is git?
 Ans--> git is a version control system that tracks changes in any computer files,usally used for maintaining a collaborative environment
 for the programmers or others to work on a single project at the same time.
@@ -12,7 +14,7 @@ has to be made in the previous file).
 
 git add -A-> this command is used to transfer all files to staging area.
 
-git rm --cached filename-> this command is used to unstage the file(means move from stage to untracked area).
+git rm --cached filename-> this command is used to unstage the whole file(means move from stage to untracked area).
 
 *repository area-> this area contain all your previous registered versions.All the files in this area,git manages
 them and know their version history.
@@ -20,7 +22,9 @@ them and know their version history.
 *commit-> commit is a particular version of the project. It captures the snapshot of project's staged changes and 
 make a version out of it.
 
-git commit-> transfer staging changes to repository area.
+*git commit-> transfer staging changes to repository area.
+
+*wq-> type this for exiting text editor like or vm window which appear after commit command.
 
 git log-> list down all the commits of the repository.
 
@@ -29,5 +33,7 @@ git restore filename-> this command used to remove all files changes from the st
 git restore --staged filename-> it revert back to the working area and then apply restore command(restore command
 only work on working area).
 
-*wq-> type this for exiting vm window which appear after commit command.
+*git commit -m ->if you do not want to open text editor like window afer commiting then use this command for direct commit.
+
+
 

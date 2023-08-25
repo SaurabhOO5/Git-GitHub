@@ -35,6 +35,21 @@ only work on working area).
 
 *git commit -m "<your commit message>" ->if you do not want to open text editor like window afer commiting then use this command for direct commit.
 
+git remote -> list down all remote connection names.
+
+remote connection -> it helps you to link two repositories of git for uploading and downloading changes from each other.
+
+git remote add <name of remote repo>< link of remote repo> -> this command helps us to build a link between local  or remote repository
+to remote repository.
+
+git remote rm <name of remote repo> -> it remove the connection between two repositories.
+
+git remote rename <oldname><newname> -> helps us to change the name of repo.
+
+*Note-> the name of the remote connection is always used to establish connection between two repositories.
+
+
+
 
 
 

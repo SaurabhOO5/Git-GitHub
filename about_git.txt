@@ -4,6 +4,19 @@ what is git?
 Ans--> git is a version control system that tracks changes in any computer files,usally used for maintaining a collaborative environment
 for the programmers or others to work on a single project at the same time.
 
+what is Github?
+Ans--> Website that allows developers to store and manage their code using git.
+
+Git configure-
+->git config --<global/local> user.name "<name>"                (local-> changes for particular repo and global-> changes in throughout the system)
+->git config --<global/local> user.email "<email>"
+
+git config --list -> information about your credentials.
+
+git --version -> with this you can check if git is present or not or its version.
+
+git clone <repo link> -> it copy whole repository to our local system.
+
 git init-> powers your folder to be managed by git, it initialises a new empty repository.It also creates a .git folder 
 which contain all logics to manage all versions of your project.
 
@@ -39,7 +52,7 @@ git remote -> list down all remote connection names.
 
 remote connection -> it helps you to link two repositories of git for uploading and downloading changes from each other.
 
-git remote add <name of remote repo>< link of remote repo> -> this command helps us to build a link between local  or remote repository
+*git remote add <name of remote repo>< link of remote repo> -> this command helps us to build a link between local  or remote repository
 to remote repository.
 
 git remote rm <name of remote repo> -> it remove the connection between two repositories.
@@ -47,6 +60,19 @@ git remote rm <name of remote repo> -> it remove the connection between two repo
 git remote rename <oldname><newname> -> helps us to change the name of repo.
 
 *Note-> the name of the remote connection is always used to establish connection between two repositories.
+
+*git push <name of remote repo><name of branch> -> this command helps us to push our repo to remote repository.
+
+*git pull <remote name><branch name> -> downloads all the changes that are done in remote repo in the local repo.
+
+
+------Recommended practice to do------
+        make changes
+        git add <filename>
+        git commit
+        git pull
+        git push
+
 
 
 
